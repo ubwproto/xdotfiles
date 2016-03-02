@@ -28,7 +28,8 @@ URxvt*color0:       #000000
 URxvt*color8:       #1c1c1c
 
 !red
-URxvt*color1:       #960050
+!URxvt*color1:       #960050
+URxvt*color1:       #B80505
 URxvt*color9:       #ff0090
 
 !green
@@ -36,11 +37,14 @@ URxvt*color2:       #66aa11
 URxvt*color10:      #80ff00
 
 !yellow
-URxvt*color3:       #c47f2c
+!URxvt*color3:       #c47f2c
+URxvt*color3:       #C29E00
 URxvt*color11:      #ffba68
 
 !blue
-URxvt*color4:       #30309b
+!URxvt*color4:       #30309b
+!URxvt*color4:       #4477ff
+URxvt*color4:       #3465A3
 URxvt*color12:      #5f5fee
 
 !magenta
