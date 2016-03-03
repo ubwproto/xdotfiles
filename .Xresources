@@ -1,10 +1,14 @@
-xterm*font:	*-fixed-*-*-*-18-*
+
+! xterm
+xterm*faceName:  RictyDiminishedDiscord-Regular:size=14:antialias=true
+xterm*font: 7x13
 xterm*utf8: 1
 xterm*locale: true
-xterm*faceName: 'Monospace'
+xterm*background:   #292929
+xterm*foreground:   #d0d0d0
 
 ! urxvt
-URxvt*saveLines:          10000
+URxvt*saveLines:    10000
 
 ! Fonts
 URxvt*font: xft:RictyDiminishedDiscord-Regular:size=14:antialias=true
