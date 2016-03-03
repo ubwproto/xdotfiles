@@ -1,0 +1,10 @@
+
+! F12 -> Insert
+keycode 96 = Insert Insert
+
+! Alt_L -> Mode_switch
+keycode 64 = Mode_switch
+
+keycode 31 = i I bracketleft braceleft
+keycode 32 = o O bracketright braceright
+

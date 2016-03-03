@@ -1,3 +1,4 @@
 #!/bin/bash
 
 xrandr --output VGA-0 --mode 1680x1024
+xset r rate 195 62
