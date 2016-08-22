@@ -13,4 +13,4 @@ xTerm*background: #292929
 XTerm*foreground: #d0d0d0
 XTerm*saveLines : 2000
 
-# vim:set filetype=xdefaults:
+! vim:set filetype=xdefaults:

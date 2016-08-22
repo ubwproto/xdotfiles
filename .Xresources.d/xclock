@@ -1,0 +1,20 @@
+
+! xclock
+
+! refresh per seconds
+XClock*update: 5
+
+XClock*analog: true
+XClock*render: true
+XClock*width: 150
+XClock*height: 150
+
+XClock*hourColor: #5555ff
+XClock*minuteColor: #5555ff
+XClock*secondColor: #5555ff
+XClock*majorColor: #99aaff
+XClock*minorColor: #5555ff
+XClock*Foreground: #99aaff
+XClock*background: #0f0f0f
+
+! vim:set filetype=xdefaults:
