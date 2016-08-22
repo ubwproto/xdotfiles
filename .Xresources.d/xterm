@@ -1,0 +1,16 @@
+
+! xterm
+XTerm*utf8: 1
+XTerm*termName: xterm-256color
+XTerm*metaSendsEscape: true
+XTerm*locale: true
+XTerm*selectToClipboard: true
+XTerm*faceName : Ricty Diminished Discord:style=Regular:antialias=true
+XTerm*faceSize : 12
+XTerm*font : 7x13
+XTerm*cjkWidth: true
+xTerm*background: #292929
+XTerm*foreground: #d0d0d0
+XTerm*saveLines : 2000
+
+# vim:set filetype=xdefaults:

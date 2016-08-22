@@ -1,0 +1,12 @@
+# For the benefit of emacs users: -*- shell-script -*-
+# Version: 1.8.6
+
+"xbindkeys_show"
+  control+shift + q
+
+"dmenu_run"
+  Shift+Mod4 + Return
+
+"rofi -combi-modi window,drun -show combi"
+  Mod4 + r
+
