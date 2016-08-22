@@ -8,7 +8,11 @@ xterm*background:   #292929
 xterm*foreground:   #d0d0d0
 
 ! urxvt
-URxvt*saveLines:    10000
+URxvt*saveLines: 10000
+URxvt.scrollBar: false
+
+URxvt*shading: 10
+URxvt*inheritPixmap: true
 
 ! Fonts
 URxvt*font: xft:RictyDiminishedDiscord-Regular:size=14:antialias=true
@@ -62,3 +66,22 @@ URxvt*color14:      #4eb4fa
 !white
 URxvt*color7:       #5f5f5f
 URxvt*color15:      #d0d0d0
+
+! ---
+
+! xclock
+XClock*analog: true
+XClock*render: true
+XClock*width: 150
+XClock*height: 150
+
+! refresh per seconds
+XClock*update: 5
+
+XClock*hourColor: #5555ff
+XClock*minuteColor: #5555ff
+XClock*secondColor: #5555ff
+XClock*majorColor: #99aaff
+XClock*minorColor: #5555ff
+XClock*Foreground: #99aaff
+XClock*background: #0f0f0f
