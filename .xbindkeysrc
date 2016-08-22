@@ -4,7 +4,7 @@
 "xbindkeys_show"
   control+shift + q
 
-"dmenu_run"
+"dmenu_run -fn 'Inconsolata 30'"
   Shift+Mod4 + Return
 
 "rofi -combi-modi window,drun -show combi"
