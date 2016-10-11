@@ -3,8 +3,9 @@
 URxvt*saveLines: 10000
 URxvt.scrollBar: false
 
-URxvt*shading: 10
 URxvt*inheritPixmap: true
+URxvt*.transparent: true
+URxvt*.shading: 30
 
 ! Fonts
 URxvt*font: xft:RictyDiminishedDiscord-Regular:size=14:antialias=true
@@ -22,6 +23,7 @@ URxvt*cursorColor:  #d0d0d0
 
 URxvt*colorBD:      #3579a8
 URxvt*colorUL:      #4eb4fa
+URxvt*colorIT:      #87af5f
 
 !black
 URxvt*color0:       #000000
