@@ -1,3 +1,4 @@
+! grave: `  asciitilde: ~  backslash: \
 
 ! F12 -> Insert
 keycode 96 = Insert Insert
@@ -7,4 +8,23 @@ keycode 64 = Mode_switch
 
 keycode 31 = i I bracketleft braceleft
 keycode 32 = o O bracketright braceright
+keycode 58 = m M Return bar
+
+
+! HHKB specific
+
+! braceleft -> Escape
+keycode  34 = bracketleft braceleft Escape braceleft
+
+! BackSpace
+keycode 22 = backslash bar BackSpace BackSpace
+
+! grave(`)
+keycode 49 = BackSpace Delete
+
+! backslash
+keycode 51 = backslash bar Home End
+
+! Escape -> grave
+keycode   9 = grave asciitilde Escape NoSymbol
 
