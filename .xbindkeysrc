@@ -10,3 +10,18 @@
 "rofi -combi-modi window,drun -show combi"
   Mod4 + r
 
+"systemctl suspend"
+  control+Mod4+s
+
+# Mute toggle
+"amixer -c 1 set Master toggle"
+  XF86AudioMute
+
+# Volume +
+"amixer -c 1 set Master 5+"
+  XF86AudioRaiseVolume
+
+# Volume -
+"amixer -c 1 set Master 5-"
+  XF86AudioLowerVolume
+
