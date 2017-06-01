@@ -15,3 +15,5 @@ xautolock -detectsleep \
 xset r rate 200 40
 
 xbindkeys
+fcitx-autostart
+synergys -d NOTE
