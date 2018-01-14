@@ -6,6 +6,7 @@ URxvt.scrollBar: false
 URxvt*inheritPixmap: true
 URxvt*.transparent: true
 URxvt*.shading: 30
+URxvt*.fading: 40
 
 ! url matcher
 URxvt.perl-ext-common: default,matcher
@@ -14,6 +15,7 @@ URxvt.matcher.button: 1
 
 ! URxvt.keysym.M-l: perl:matcher:last
 URxvt.keysym.M-u: perl:matcher:list
+URxvt.keysym.M-s: builtin-string:
 
 URxvt.matcher.rend.0: Uline Bold fg5
 
