@@ -8,6 +8,9 @@
   Mod4 + p
 
 "rofi -combi-modi window,drun -show combi"
+  Mod4 + w
+
+"rofi -combi-modi window,drun -show combi"
   Mod4 + r
 
 "systemctl suspend"
