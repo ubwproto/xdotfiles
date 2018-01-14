@@ -13,8 +13,8 @@
 "rofi -combi-modi window,drun -show combi"
   Mod4 + r
 
-"systemctl suspend"
-  control+Mod4+s
+"sleep 1 ; systemctl suspend ; sleep 1"
+  release+control+Mod4+s
 
 # Mute toggle
 "amixer -c 1 set Master toggle"
