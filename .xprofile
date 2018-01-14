@@ -6,11 +6,6 @@ export XMODIFIERS=@im=fcitx
 
 export DefaultImModule=fcitx
 
-# autolock, autosuspend
-xautolock -detectsleep \
-  -time 20     -locker "slock" \
-  -killtime 70 -killer "systemctl suspend" &
-
 # key repeat speed
 xset r rate 200 40
 
