@@ -13,3 +13,5 @@ wmname LG3D
 xbindkeys
 fcitx-autostart
 synergys -d NOTE
+
+~/.dropbox-dist/dropboxd &
