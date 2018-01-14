@@ -2,7 +2,7 @@
 # Version: 1.8.6
 
 "xbindkeys_show"
-  control+shift + q
+  Mod4 + q
 
 "dmenu_run -fn 'Inconsolata 30' -l 40"
   Mod4 + p
