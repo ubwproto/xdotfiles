@@ -1,24 +1,9 @@
 # For the benefit of emacs users: -*- shell-script -*-
 # Version: 1.8.6
 
-"dmenu_run -fn 'Inconsolata 30' -l 40"
+"menux"
   Mod4 + p
 
 "rofi -combi-modi window,drun -show combi"
   Mod4 + w
-
-"sleep 1 ; systemctl suspend ; sleep 1"
-  release+control+Mod4+s
-
-# Mute toggle
-"amixer -c 1 set Master toggle"
-  XF86AudioMute
-
-# Volume +
-"amixer -c 1 set Master 5+"
-  XF86AudioRaiseVolume
-
-# Volume -
-"amixer -c 1 set Master 5-"
-  XF86AudioLowerVolume
 
