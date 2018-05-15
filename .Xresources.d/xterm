@@ -12,10 +12,9 @@ xterm*utf8: true
 xterm*termName: xterm-256color
 xterm*metaSendsEscape: true
 xterm*selectToClipboard: true
-!xterm*faceName: xft:DejaVu Sans Mono:style=Book:pixelsize=14:antialias=true
-xterm*faceName: xft:Ricty Diminished Discord:style=Regular:pixelsize=19:antialias=true
+xterm*faceName: xft:monospace:pixelsize=19:antialias=true
 xterm*faceNameDoublesize: xft:Ricty Diminished Discord:style=Regular:pixelsize=19:antialias=true
-xterm*saveLines : 2000
+xterm*saveLines : 1000
 
 !xterm*borderWidth: 0
 !xterm*internalBorder: 2
