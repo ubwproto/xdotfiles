@@ -1,17 +1,11 @@
 # For the benefit of emacs users: -*- shell-script -*-
 # Version: 1.8.6
 
-"xbindkeys_show"
-  Mod4 + q
-
 "dmenu_run -fn 'Inconsolata 30' -l 40"
   Mod4 + p
 
 "rofi -combi-modi window,drun -show combi"
   Mod4 + w
-
-"rofi -combi-modi window,drun -show combi"
-  Mod4 + r
 
 "sleep 1 ; systemctl suspend ; sleep 1"
   release+control+Mod4+s
