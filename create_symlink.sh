@@ -20,6 +20,8 @@ for dotfile in .?*; do
             continue;;
         .gitignore)
             continue;;
+        menux)
+            continue;;
         *)
 
             # remove old symlink

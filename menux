@@ -1,0 +1,10 @@
+#!/bin/sh
+echo '
+systemctl suspend
+amixer -c 1 set Master toggle #mute
+amixer -c 1 set Master 5+ #volup
+amixer -c 1 set Master 5- #voldown
+' | \
+  sed '/^$/d' | \
+  dmenu | \
+  ${SHELL:-"/bin/sh"} &
