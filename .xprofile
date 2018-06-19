@@ -1,17 +1,14 @@
-
-# for imput method
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
-
 export DefaultImModule=fcitx
 
 # key repeat speed
 xset r rate 200 40
 
-wmname LG3D
-xbindkeys
 fcitx-autostart
-synergys -d NOTE
+wmname LG3D &
+sxhkd &
+# synergys -d NOTE
 
-~/.dropbox-dist/dropboxd &
+nohup ~/.dropbox-dist/dropboxd &

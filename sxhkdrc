@@ -1,0 +1,8 @@
+alt + comma ; alt + p
+  menux
+
+alt + comma ; alt + w
+  rofi -show combi -combi-modi "window,drun" -modi "window,run,ssh,combi"
+
+super + w
+  rofi -show combi -combi-modi "window,drun" -modi "window,run,ssh,combi"
