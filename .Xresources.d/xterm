@@ -6,6 +6,7 @@ xterm*selectToClipboard: true
 xterm*faceName: xft:monospace:pixelsize=19:antialias=true
 xterm*faceNameDoublesize: xft:Ricty Diminished Discord:style=Regular:pixelsize=19:antialias=true
 xterm*ptyInitialErase: true
+XTerm*disallowedWindowOps: 20,21,SetXprop
 
 ! Molokai theme
 *xterm*background: #101010
