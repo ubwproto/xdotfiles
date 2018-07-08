@@ -1,34 +1,21 @@
 #!/bin/sh
 
 BACKUPDIR=$HOME/xdotfiles.bk.$(date +"%Y-%m-%d.%H%M%S")
-mkdir $BACKUPDIR
+mkdir "$BACKUPDIR"
 
-cd $(dirname $0)
+cd "$(dirname "$0")" || return
 
-echo "home directory path: $HOME"
 echo "backup directory:  $BACKUPDIR"
-echo "xdotfiles path:       $PWD \n"
-echo "installing xdotfiles\n---"
+echo "xdotfiles path:       $PWD"
+echo "installing xdotfiles"
 
 for dotfile in .?*; do
     case $dotfile in
-        *.elc)
-            continue;;
-        ..)
-            continue;;
-        .git)
-            continue;;
-        .gitignore)
-            continue;;
-        menux)
+        *.elc | .. | .git | .gitignore | menux | sxhkdrc)
             continue;;
         *)
-
-            # remove old symlink
             [ -L "$HOME/$dotfile" ] && unlink "$HOME/$dotfile"
-
-            # backup old file
-            [ -e "$HOME/$dotfile" ] && mv -v "$HOME/$dotfile" $BACKUPDIR
+            [ -e "$HOME/$dotfile" ] && mv -v "$HOME/$dotfile" "$BACKUPDIR"
 
             ln -sv "$PWD/$dotfile" "$HOME"
             ;;
