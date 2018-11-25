@@ -1,5 +1,3 @@
 #!/bin/bash
-# for ubuntu/debian based config
 
-# include common X config
 [[ -f ~/.xprofile ]] && source ~/.xprofile

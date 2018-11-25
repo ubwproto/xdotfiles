@@ -1,0 +1,74 @@
+NoDefaults
+RestartPreviousState
+DecorateTransients
+SqueezeTitle
+ShowIconManager
+SortIconManager
+IconifyByUnmapping
+
+WarpCursor
+WarpUnmapped
+RandomPlacement
+UsePPosition "on"
+
+BorderWidth 1
+MoveDelta 3
+
+NoTitle {
+  "TWM Icon Manager"
+  "zathura"
+  "Chromium"
+  "Firefox"
+  "xterm"
+  "feh"
+}
+
+Function "move-or-lower" { f.move f.deltastop f.lower }
+Function "move-or-raise" { f.move f.deltastop f.raise }
+Function "move-or-iconify" { f.move f.deltastop f.iconify }
+
+Button1 = : root : f.menu "defops"
+
+Button1 = m : window|icon : f.function "move-or-raise"
+Button2 = m : window|icon : f.iconify
+Button3 = m : window|icon : f.function "move-or-lower"
+
+Button1 = : title : f.function "move-or-raise"
+Button2 = : title : f.raiselower
+
+Button1 = : icon : f.function "move-or-iconify"
+Button2 = : icon : f.iconify
+
+Button1 = : iconmgr : f.iconify
+Button2 = : iconmgr : f.iconify
+
+"Tab"	= m : all : f.raiselower
+"Tab"	= m|s : all : f.raise
+"c"	= m4|s : all : f.delete
+"r"	= m4|m|c : all : f.restart
+"f"	= m4 : all : f.fullzoom
+"j"	= m4 : all : f.downiconmgr
+"1"	= m4 : all : f.warpto "xterm"
+"9"	= m4 : all : f.warpto "Firefox"
+
+menu "defops"
+{
+"Iconify"	f.iconify
+"Resize"	f.resize
+"Move"		f.move
+"Raise"		f.raise
+"Lower"		f.lower
+""		f.nop
+"Focus"		f.focus
+"Unfocus"	f.unfocus
+"Show Iconmgr"	f.showiconmgr
+"Hide Iconmgr"	f.hideiconmgr
+""		f.nop
+"Xterm"		f.exec "exec xterm &"
+""		f.nop
+"Kill"		f.destroy
+"Delete"	f.delete
+""		f.nop
+"Restart"	f.restart
+"Exit"		f.quit
+}

@@ -4,7 +4,7 @@ export XMODIFIERS=@im=fcitx
 export DefaultImModule=fcitx
 
 # key repeat speed
-xset r rate 200 40
+xset r rate 200 80
 
 fcitx-autostart
 wmname LG3D &
