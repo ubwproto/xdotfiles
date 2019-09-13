@@ -1,6 +1,7 @@
 #!/bin/sh
 echo '
-systemctl suspend
+systemctl suspend ; slock
+xset r rate 200 80  #key repeat, interval
 amixer -c 1 set Master toggle #mute
 amixer -c 1 set Master 5+ #volup
 amixer -c 1 set Master 5- #voldown

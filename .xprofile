@@ -3,9 +3,6 @@ export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export DefaultImModule=fcitx
 
-# key repeat speed
-xset r rate 200 80
-
 fcitx-autostart
 wmname LG3D &
 sxhkd &
