@@ -1,8 +1,15 @@
 alt + comma ; alt + p
   menux
 
-alt + comma ; alt + w
-  rofi -show combi -combi-modi "window,drun" -modi "window,run,ssh,combi"
-
 super + w
-  rofi -show combi -combi-modi "window,drun" -modi "window,run,ssh,combi"
+  rofi -show combi -combi-modi "window,drun" -modi "window,drun,run,ssh,combi"
+
+alt + comma ; alt + w
+  rofi -show window -combi-modi "window,drun" -modi "window,drun,run,ssh,combi"
+
+alt + comma ; alt + f
+  wmctrl -a xterm
+
+alt + comma ; alt + l
+  wmctrl -a firefox
+
