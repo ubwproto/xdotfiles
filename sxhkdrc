@@ -4,6 +4,9 @@ alt + comma ; alt + p
 super + w
   rofi -show combi -combi-modi "window,drun" -modi "window,drun,run,ssh,combi"
 
+alt + comma ; w
+  rofi -show drun -modi "window,drun"
+
 alt + comma ; alt + w
   rofi -show window -combi-modi "window,drun" -modi "window,drun,run,ssh,combi"
 
@@ -12,4 +15,7 @@ alt + comma ; alt + f
 
 alt + comma ; alt + l
   wmctrl -a firefox
+
+alt + comma ; alt + {1-9}
+  xdotool key --clearmodifiers --delay 200 "super+{1-9}"
 
