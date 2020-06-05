@@ -3,10 +3,13 @@ xterm*utf8: true
 xterm*termName: xterm-256color
 xterm*metaSendsEscape: true
 xterm*selectToClipboard: true
-xterm*faceName: monospace:pixelsize=19
-xterm*faceNameDoublesize: Migu 1M:pixelsize=19
 xterm*ptyInitialErase: true
 XTerm*disallowedWindowOps: 20,21,SetXprop
+
+xterm*faceName: monospace
+xterm*faceNameDoublesize: Migu 1M
+xterm*faceSize: 14
+xterm*scaleHeight: 0.9
 
 ! Molokai theme
 *xterm*background: #101010
