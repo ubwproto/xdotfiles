@@ -6,10 +6,9 @@ xterm*selectToClipboard: true
 xterm*ptyInitialErase: true
 XTerm*disallowedWindowOps: 20,21,SetXprop
 
-xterm*faceName: monospace
-xterm*faceNameDoublesize: Migu 1M
 xterm*faceSize: 14
-xterm*scaleHeight: 0.9
+xterm*faceName: monospace
+xterm*faceNameDoublesize: Mgen+ 1m
 
 ! Molokai theme
 *xterm*background: #101010
