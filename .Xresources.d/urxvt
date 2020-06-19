@@ -14,58 +14,6 @@ URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 URxvt.matcher.rend.0: Uline Bold fg5
 
-! Fonts
-URxvt*font: xft:RictyDiminishedDiscord-Regular:size=14:antialias=true
-URxvt*boldfont: xft:RictyDiminishedDiscord-Regular:size=14:antialias=true
-
-! Color
-! molokai inspired colors (darker version)
-
-!URxvt*background:   #000000
-URxvt*background:   #292929
-
-URxvt*foreground:   #d0d0d0
-
-URxvt*cursorColor:  #d0d0d0
-
-URxvt*colorBD:      #3579a8
-URxvt*colorUL:      #4eb4fa
-URxvt*colorIT:      #87af5f
-
-!black
-URxvt*color0:       #000000
-URxvt*color8:       #1c1c1c
-
-!red
-!URxvt*color1:       #960050
-URxvt*color1:       #B80505
-URxvt*color9:       #ff0090
-
-!green
-URxvt*color2:       #66aa11
-URxvt*color10:      #80ff00
-
-!yellow
-!URxvt*color3:       #c47f2c
-URxvt*color3:       #C29E00
-URxvt*color11:      #ffba68
-
-!blue
-!URxvt*color4:       #30309b
-!URxvt*color4:       #4477ff
-URxvt*color4:       #3465A3
-URxvt*color12:      #5f5fee
-
-!magenta
-URxvt*color5:       #7e40a5
-URxvt*color13:      #bb88dd
-
-!cyan
-URxvt*color6:       #3579a8
-URxvt*color14:      #4eb4fa
-
-!white
-URxvt*color7:       #5f5f5f
-URxvt*color15:      #d0d0d0
+URxvt*font: xft:monospace:size=14, xft:Mgen+ 1m:size=15
 
 ! vim:set filetype=xdefaults:
