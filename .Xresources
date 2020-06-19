@@ -1,4 +1,5 @@
 
+#include ".Xresources.d/themes/oceanic-next"
 #include ".Xresources.d/xterm"
 #include ".Xresources.d/urxvt"
 #include ".Xresources.d/xclock"
