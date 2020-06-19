@@ -10,27 +10,43 @@ xterm*faceSize: 14
 xterm*faceName: monospace
 xterm*faceNameDoublesize: Mgen+ 1m
 
-! Molokai theme
-*xterm*background: #101010
-*xterm*foreground: #d0d0d0
-*xterm*cursorColor: #d0d0d0
-*xterm*color0: #101010
-*xterm*color1: #960050
-*xterm*color2: #66aa11
-*xterm*color3: #c47f2c
-!orig  color4: #30309b
-*xterm*color4: #1167fc
-*xterm*color5: #7e40a5
-*xterm*color6: #3579a8
-*xterm*color7: #9999aa
-*xterm*color8: #303030
-*xterm*color9: #ff0090
-*xterm*color10: #80ff00
-*xterm*color11: #ffba68
-*xterm*color12: #5f5fee
-*xterm*color13: #bb88dd
-*xterm*color14: #4eb4fa
-*xterm*color15: #d0d0d0
+! Molokai
+#define c00 #101010
+#define c01 #960050
+#define c02 #66aa11
+#define c03 #c47f2c
+#define c04 #1167fc
+#define c05 #7e40a5
+#define c06 #3579a8
+#define c07 #9999aa
+#define c08 #303030
+#define c09 #ff0090
+#define c10 #80ff00
+#define c11 #ffba68
+#define c12 #5f5fee
+#define c13 #bb88dd
+#define c14 #4eb4fa
+#define c15 #d0d0d0
+
+*.background:   c00
+*.foreground:   c15
+*.cursorColor:  c15
+*.color0:       c00
+*.color1:       c01
+*.color2:       c02
+*.color3:       c03
+*.color4:       c04
+*.color5:       c05
+*.color6:       c06
+*.color7:       c07
+*.color8:       c08
+*.color9:       c09
+*.color10:      c10
+*.color11:      c11
+*.color12:      c12
+*.color13:      c13
+*.color14:      c14
+*.color15:      c15
 
 *VT100*translations:      #override \n\
     Ctrl Shift <Key>V:  insert-selection(CLIPBOARD, PRIMARY) \n\
