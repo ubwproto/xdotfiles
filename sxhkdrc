@@ -16,6 +16,9 @@ alt + comma ; alt + f
 alt + comma ; alt + l
   wmctrl -a firefox
 
+alt + comma ; alt + e
+  xdotool mousemove 10 10
+
 alt + comma ; alt + {1-9}
   xdotool key --clearmodifiers --delay 200 "super+{1-9}"
 
