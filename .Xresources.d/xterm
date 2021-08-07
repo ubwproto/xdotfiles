@@ -10,6 +10,8 @@ xterm*faceSize: 14
 xterm*faceName: monospace
 xterm*faceNameDoublesize: Mgen+ 1m
 
+xterm*boldColors: false
+
 *VT100*translations:      #override \n\
     Ctrl Shift <Key>V:  insert-selection(CLIPBOARD, PRIMARY) \n\
           Ctrl <Key>0:  insert-selection(PRIMARY, CLIPBOARD)
