@@ -8,4 +8,5 @@ wmname LG3D &
 sxhkd &
 # synergys -d NOTE
 
-~/bin/dropbox.py start &
+~/.dropbox-dist/dropboxd &
+
