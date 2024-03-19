@@ -7,10 +7,17 @@ xterm*ptyInitialErase: true
 xterm*disallowedWindowOps: 20,21,SetXprop
 xterm*fastscroll:  true
 xterm*multiscroll: true
+xterm*fullscreen: never
 
-xterm*faceSize: 14
-xterm*faceName: monospace
-xterm*faceNameDoublesize: Mgen+ 1m
+xterm*visualBell: true
+xterm*visualBellLine: true
+xterm*bellIsUrgent: true
+
+xterm*faceSize: 15
+xterm*faceName: monospace,emoji
+xterm*faceNameDoublesize: emoji,monospace:lang=ja
+! xterm*limitFontsets: 254
+! xterm*cjkWidth: true
 
 xterm*boldColors: false
 
