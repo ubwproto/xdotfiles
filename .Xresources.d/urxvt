@@ -14,6 +14,6 @@ URxvt.url-launcher: /usr/bin/xdg-open
 URxvt.matcher.button: 1
 URxvt.matcher.rend.0: Uline Bold fg5
 
-URxvt*font: xft:monospace:size=14, xft:Mgen+ 1m:size=15
+URxvt*font: xft:monospace:size=14,xft:Mgen+ 1mn:lang=ja:size=15
 
 ! vim:set filetype=xdefaults:

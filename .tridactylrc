@@ -1,0 +1,44 @@
+set smoothscroll true
+
+set hintchars sdeofwmikljghutarpq
+" ybzxcv
+
+unbind <C-f>
+unbind <C-b>
+bind D tabclose
+bind x tabclose
+bind id tabclose
+bind if hint -b
+bind gw tabclose
+bind gs tabdetach
+bind d scrollpage 0.5
+bind u scrollpage -0.5
+bind w scrollline -10
+bind s scrollline 10
+bind n findnext 1
+bind p findnext -1
+bind Y clipboard yankmd
+bind U undo
+bind <A-j> tabprev
+bind <A-k> tabnext
+
+bind --mode=ex <C-j> ex.next_completion
+bind --mode=ex <C-k> ex.prev_completion
+
+bind ;c hint -c [class*="expand"],[class="togg"]
+bind ;u hint -F e => e.dispatchEvent(new MouseEvent('mouseover', {}))
+bind ;U hint -F e => e.dispatchEvent(new MouseEvent('mouseleave', {}))
+
+blacklistadd mail.google.com
+blacklistadd keep.google.com
+blacklistadd calendar.google.com
+blacklistadd feedly.com
+blacklistadd monkeytype.com
+
+unbindurl youtube.com j
+unbindurl youtube.com k
+unbindurl youtube.com l
+unbindurl youtube.com t
+unbindurl youtube.com >>
+unbindurl youtube.com <<
+

@@ -1,12 +1,11 @@
+#!/bin/sh
 export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 export DefaultImModule=fcitx
+export GLFW_IM_MODULE=ibus # for kitty
 
-fcitx-autostart
 wmname LG3D &
 sxhkd &
 # synergys -d NOTE
-
-~/.dropbox-dist/dropboxd &
 
